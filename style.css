@@ -66,7 +66,7 @@ padding-right: 4%;
 .experience-box{
     box-shadow: 10px 10px 40px rgb(14, 14, 14);
     border-radius: 8px;
-    height: 80%;
+    height: auto;
     background-color:white;
 }
 .experience-area{
