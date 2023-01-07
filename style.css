@@ -6,9 +6,9 @@ h1{
     font-size: 40px
 }
 h2{
-    font-size: 30px
+    font-size: 35px
 }
-.name-highlight{
+.highlight-orange{
     color: orangered;
 }
 .pro{
@@ -62,4 +62,41 @@ P{
 .bottom{
 padding-top: 3%;
 padding-right: 4%;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px rgb(14, 14, 14);
+    border-radius: 8px;
+    height: 75%;
+    background-color:white;
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#full-stack{
+border-left: 7px solid;
+border-image: 
+linear-gradient(
+  to top, 
+  orangered, 
+  rgb(255, 230, 0)
+) 1 100%;
+border-image-slice: 1;
+}
+#newbie{
+border-left: 7px solid;
+border-image:
+linear-gradient(
+  to bottom, 
+  rgb(32, 32, 255), 
+  rgb(0, 140, 255)
+) 1 100%;
+}
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+    size: 10px;
+    font-weight: 700;
+    color: darkslategrey;
 }
