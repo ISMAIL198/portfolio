@@ -100,9 +100,22 @@ footer{
     font-weight: 700;
     color: darkslategrey;
 }
-.social img{
-    text-align: center;
-    height: 50px;
-    width: 50px;
+}
+.social{
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ img{
+        height:6%;
+        width:6%;
 
+}
+.welcome{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 0px;
+        padding-bottom: 0%;
 }
